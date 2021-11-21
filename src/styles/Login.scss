@@ -1,0 +1,80 @@
+.form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    border: 1px solid var(--bd-color);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+input::placeholder {
+    padding-left: 15px;
+}
+
+.form-title, .form-text {
+    width: 100%;
+    color: #545454;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    color: #545454;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    border: none;
+    border: 1px solid #babfc4;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 5px 0;
+    height: 40px;
+}
+
+.form-button {
+    width: 100%;
+    text-align: center;
+}
+
+.form-button input[type="submit"]{
+    background-color: var(--t-color);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 40px;
+    width: 100%;
+
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.form-button input[type="submit"]:hover {
+    background-color: var(--p-color);
+}
+
+.form-button input[type="submit"]:active {
+    background-color: var(--s-color);
+}
+
+.form-aditional {
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+}

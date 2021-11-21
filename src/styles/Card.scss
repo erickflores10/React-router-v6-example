@@ -1,0 +1,42 @@
+.card {
+    border-radius: 1px solid #e5e8ec;
+    max-width: 250px;
+    background: #fff;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title, .card-text {
+    color: #545454;
+    padding: 0 15px;
+    margin: 15px 0;
+}
+
+.card-title a{
+    color: #545454;
+    text-decoration: none;
+}
+
+.card-socials {
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.fas:active, .far:active {
+    color: #007fff;
+}
+
+.card-socials-left, .card-socials-right {
+    margin: 0 15px;
+}
+
+.card-socials-left .fas, .card-socials-right .far {
+    cursor: pointer;
+    padding: 5px;
+}
